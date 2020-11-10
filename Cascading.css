@@ -1,0 +1,150 @@
+/*defines the defaults for the entire body*/
+body
+{
+    font-family: 'handlee', cursive;
+    font-size: 13pt;
+	background: lightblue;
+}
+/*Defines the properties for the header*/
+header {
+    background-image: url("https://img.freepik.com/free-vector/gradient-geometric-shape-background_78532-374.jpg?size=626&ext=jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+/*Defines the properties for the header image*/
+header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding-top: 10px;/*Center the image vertically*/
+    border-radius: 20px;
+    
+}
+/*Defines the properties for the header text*/
+header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+/*defines the styling of the div element*/
+div {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;/*rounds the border*/
+    background-color: #fff;
+}
+/*centers the paragraphs in the div elements*/
+div p
+{
+text-align: center;
+}
+/*defines the text size and spacing for the header*/
+h1
+{
+    text-align: center;
+    font-size: 16pt;
+    margin-bottom: 30px; 
+    
+}
+/*defines the styles for the header*/
+h1 span
+{
+    border: blue dashed 4px;
+    padding: 10px;
+    color: blue;
+}
+/*special class for the quote in about me*/
+.quote
+{
+    font-size: 12pt;
+    text-align: right;
+}
+/*defines the text size and table properties*/
+table
+{
+    width: 100%;/*Makes the table conform to window size*/
+    font-size: 11pt;
+}
+/*defines the styles for the table*/
+table,tr,th
+{
+    border-collapse: collapse; /*collapses the border*/
+    border: 2px solid #cecece;
+}
+/*colors important parts of the table if needed*/
+.selected
+{
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+ 
+}
+/*Styles the progress bar*/
+progress
+{
+    width: 70%;
+    height: 20px;
+    background: #000000;/*for some reason getting rid of this background element reverts it to default*/
+}
+/*gives the progress bars trail color*/
+progress::-webkit-progress-bar {
+    background: #B2AEAE;
+}
+/*colors the progress bar value*/
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+/*align the form function to the center of the section*/
+form {
+    text-align: center;
+    margin-top: 0;
+}
+/*Message button Size*/
+textarea {
+    width: 90px;/*Defines the textareas default size*/
+}
+/*Styling for inputs*/
+.box{
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px;
+    border: 2px solid #cecece;/*Defines the size, Definition, and color of the text feild borders respectively*/
+    border-radius: 5px;
+    width: 90%;
+    outline: none;/*no outline when filling out feild*/
+}
+/*styling for Submit button*/
+.submit
+{
+    background-color: #3fb6b2;
+    width: 70%;/*define the send buttons size relation in terms of the page*/
+    border-radius: 5px;/*round the buttons edges*/
+    color: #ffffff;/*Color the send button white*/
+    font-weight: bold;/*Bold Font*/
+}
+/*Styling for how the button should act when hovered*/
+.submit:hover {
+    background-color: #FF0000;/*Colors send button red*/
+    cursor: pointer;
+}
+iframe
+{
+    border: blue 4px solid;
+}
+#contacts
+{
+    text-align: center
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
